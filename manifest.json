@@ -1,7 +1,7 @@
 {
   "name": "Mutectl for Meet",
   "version": "1.0",
-  "description": "Toggle mute on/off for Google Meets with a browser button or hotkey. No more scrambling to find the right tab when someone asks you a question.",
+  "description": "Toggle mute on/off for Google Meets with a browser button or hotkey.",
   "background": {
     "scripts": ["lib/background.js"],
     "persistent": false
@@ -18,6 +18,13 @@
     "storage",
     "https://meet.google.com/"
   ],
+  "icons": {
+    "16": "img/micoff-light16.png",
+    "32": "img/micoff-light32.png",
+    "48": "img/micoff-light48.png",
+    "64": "img/micoff-light64.png",
+    "128": "img/micoff-light128.png"
+  },
   "browser_action": {
     "default_icon": "img/micdisabled-light128.png",
     "default_title": "Mute Mic"
