@@ -2,6 +2,15 @@
   "name": "Mutectl for Meet",
   "version": "1.0",
   "description": "Toggle mute on/off for Google Meets with a browser button or hotkey.",
+  "commands": {
+    "toggle-mute": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+0"
+      },
+      "description": "Toggle mute",
+      "global": true
+    }
+  },
   "background": {
     "scripts": ["lib/background.js"],
     "persistent": false
@@ -27,7 +36,7 @@
   },
   "browser_action": {
     "default_icon": "img/micdisabled-light128.png",
-    "default_title": "Mute Mic"
+    "default_title": "Toggle Mute in Meet"
  },
   "manifest_version": 2
 }
