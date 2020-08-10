@@ -12,7 +12,7 @@ Save your colleagues from 10 seconds of uncomfortable silence and enjoy.
 
 ### Recommended
 
-Chrome web store: <link> 
+Chrome web store: `awaiting approval`
 
 ### Not Recommended
 
@@ -24,5 +24,4 @@ Chrome web store: <link>
 
 | Priority | Task | 
 | --- | --- |
-| High | Reset browser button when you leave a meeting |
 | Low  | Support multiple meetings |
