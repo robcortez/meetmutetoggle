@@ -1,5 +1,5 @@
 {
-  "name": "Mutectl for Meet",
+  "name": "Meet Mute Toggle",
   "version": "1.0",
   "description": "Toggle mute on/off for Google Meets with a browser button or hotkey.",
   "commands": {
