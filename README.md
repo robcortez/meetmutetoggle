@@ -8,11 +8,21 @@ This extension will put a mute toggle right at the top of your browser and allow
 
 Save your colleagues from 10 seconds of uncomfortable silence and enjoy. 
 
+## Usage
+
+Once you enter a Google Meet, the toolbar icon will light up displaying your mute status. 
+
+![Toolbar Button](https://i.imgur.com/HrII9yQ.jpg)
+
+To toggle mute on or off, you can either:
+- Click the toolbar button
+- Use the global hotkey - CMD+Shift+0 on Mac or CTRL+Shift+0 on Linux and Windows
+
 ## Installation
 
 ### Recommended
 
-Chrome web store: `awaiting approval`
+Chrome web store: https://chrome.google.com/webstore/detail/meet-mute-toggle/dehgflebhpbjkeiokaipakaeblanmmce
 
 ### Not Recommended
 
