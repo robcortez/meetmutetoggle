@@ -1,6 +1,6 @@
 {
   "name": "Meet Mute Toggle",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Toggle mute on/off for Google Meets with a browser button or hotkey.",
   "commands": {
     "toggle-mute": {
