@@ -1,0 +1,18 @@
+[
+    {
+        "active": true,
+        "favIconUrl": "chrome://theme/IDR_EXTENSIONS_FAVICON@2x",
+        "height": 746,
+        "highlighted": false,
+        "id": 42,
+        "incognito": false,
+        "index": 0,
+        "pinned": false,
+        "selected": false,
+        "status": "complete",
+        "title": "Extensions",
+        "url": "https://meet.google.com/abcd-1234-test",
+        "width": 1234,
+        "windowId": 1
+    }
+]
