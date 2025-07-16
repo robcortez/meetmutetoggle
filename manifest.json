@@ -1,6 +1,6 @@
 {
   "name": "Meet Mute Toggle",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Toggle mute on/off for Google Meets with a browser button or hotkey.",
   "commands": {
     "toggle-mute": {
@@ -12,8 +12,8 @@
     }
   },
   "background": {
-    "scripts": ["lib/background.js"],
-    "persistent": false
+    "service_worker" : "lib/background.js",
+    "type": "module"
   },
   "content_scripts": [
     {
@@ -23,8 +23,11 @@
     }
   ],
   "permissions": [ 
-    "tabs", 
-    "storage",
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
     "https://meet.google.com/"
   ],
   "icons": {
@@ -34,9 +37,9 @@
     "64": "img/micoff-light64.png",
     "128": "img/micoff-light128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "img/micdisabled-light128.png",
     "default_title": "Toggle Mute in Meet"
  },
-  "manifest_version": 2
+  "manifest_version": 3
 }
